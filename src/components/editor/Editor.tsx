@@ -1,6 +1,7 @@
 import TextBox from '../../sharedComponent/textBox/TextBox';
 import ImageButton from '../../sharedComponent/imageButton/ImageButton';
 import PageEnumerationBox from '../../sharedComponent/pageEnumerationBox/PageEnumerationBox';
+import ConfigurationExporter from '../configurationExporter/ConfigurationExporter';
 
 const Editor = () => {
     const headerTextBoxes = [
@@ -49,7 +50,7 @@ const Editor = () => {
 
                 {/* Download */}
                 <div className='mt-8 mb-40 mx-8 p-10 text-center text-2xl font-medium border-2 border-black'>
-                    <button> Download Configuration </button>
+                    <ConfigurationExporter />
                 </div>
 
                 {/* pageEnumerationBox */}
