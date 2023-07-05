@@ -32,7 +32,7 @@ const ImageButton = () => {
                     <img src={imageUrl} alt="Uploaded" style={{ width: size.width, height: size.height }} />
                     <label>
                         Resize image:
-                        <input type="range" min="50" max="100" onChange={handleResize} />
+                        <input type="range" min="50" max="150" onChange={handleResize} />
                     </label>
                 </div>
             )}
