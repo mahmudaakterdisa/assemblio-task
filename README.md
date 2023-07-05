@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Assemblio Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a text editing tool built with React and TypeScript. It provides an interactive and intuitive interface for users to edit text styles including font, color and size. Changes are immediately reflected on the screen and can also be exported to a JSON file for future use.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Live text editing with a rich toolbar for changing styles
+- Style changes can be exported to a JSON file
+- Test coverage with Jest and React Testing Library
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: For building the user interface
+- TypeScript: For adding static types to JavaScript and enhancing code quality and understandability
+- Jest & React Testing Library: For unit testing the components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Considerations
 
-### `npm test`
+- Code organization and quality: I aim to follow best practices and principles such as DRY (Don't Repeat Yourself) and component isolation for maintainability and scalability.
+- Performance: I optimize performance by minimizing unnecessary re-renders and adjusting canvas update frequency. 
+- Context API: I use the React Context API for state management to avoid prop drilling and to ensure that the state can be shared across the whole app.
+- TypeScript: I use TypeScript for static typing, which can prevent potential runtime errors and enhance code quality and understandability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/mahmudaakterdisa/assemblio-task.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
