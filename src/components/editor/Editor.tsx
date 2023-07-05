@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import TextBox from '../../sharedComponent/textBox/TextBox';
 import ImageButton from '../../sharedComponent/imageButton/ImageButton';
 import PageEnumerationBox from '../../sharedComponent/pageEnumerationBox/PageEnumerationBox';

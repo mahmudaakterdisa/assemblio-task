@@ -1,4 +1,4 @@
-import React, { useState, CSSProperties } from 'react';
+import { useState, CSSProperties } from 'react';
 import { LuAlignLeft, LuAlignCenter, LuAlignRight } from "react-icons/lu";
 import TextBox from '../textBox/TextBox';
 

@@ -1,9 +1,8 @@
-import React, { useContext, useState } from 'react';
+import { useContext } from 'react';
+import { TextStyleContext } from '../../context/TextStyleContext';
 
 const Toolbar = () => {
-    const [color, setColor] = useState('#000000');
-    const [fontSize, setFontSize] = useState('16px');
-    const [font, setFont] = useState('Helvetica');
+    const { color, setColor, fontSize, setFontSize, font, setFont } = useContext(TextStyleContext);
     return (
         <div className='bg-red-200 w-3/12 p-10 '>
             <div className='border-2 border-black p-10 flex flex-col gap-y-5'>
